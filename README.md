@@ -1,24 +1,34 @@
 # DDR_Coin
 ![ddr](./Images/dd_roulette.png)
 
+---
+
 ## Designated Driver (DD) Roulette
 
+---
+
 ### Background
-Blockchain token system used to determine who will be designated driver among a group of friends when they go out
+We created a blockchain token system used to determine who will be designated driver among a group of friends when they go out
+
+---
 
 ### Motivation 
 To have a system in place for everyone to get home safely without one person always getting stuck being the DD, or the person who is supposed to be DD backing out and stranding everyone
+
+---
 
 ### Questions to answer
 * What is the consequence for not fulfilling your obligation if you are chosen as the DD
 * Who will be included in your group
 * What will be the incentive to participate
 * Is this an ongoing system or one contract per event
+---
 
 ### Instructions
 To install the Web3.py library, check that your dev environment is active, and then run the following:
 pip install web3==5.17
 
+---
 Create contract DDRCoin. Deploy contract. 
 Name: DDRCoin
 Symbol: DDR
@@ -41,12 +51,31 @@ Inital_supply: 40
 
 // Create function to only payout after event date
 
+## Technologies
 
-### Tools/Modules to use
-* Streamlit
-* MetaMask
-* Web3 / Remix
-* Ganache
+The application is written in Solidity version 0.5.0, it was deployed and tested using the Ethereum Remix IDE, MetaMask, and Ganache.
+
+Solidity - to create the smart contract [Solidity documentation](https://docs.soliditylang.org/en/v0.8.4/)
+
+MetaMask - a software cryptocurrency wallet [MetaMask documentation](https://metamask.zendesk.com/hc/en-us)
+
+Ganache - a personal blockchain for application development [Ganache documentation](https://www.trufflesuite.com/docs/ganache/overview)
+
+Streamlit - to create the web application [Streamlit documentation](https://docs.streamlit.io/en/stable/)
+
+os - miscellaneous operating system interfaces [os documentation](https://docs.python.org/3/library/os.html)
+
+Requests - HTTP library for python [Pandas documentation](https://docs.python-requests.org/en/master/)
+
+Dotenv - to read and add a key-value pair to an environment [Dotenv documentation](https://pypi.org/project/python-dotenv/)
+
+Dataclass - provides a decorator and fucntions for automatically adding special methods to user-defined classes [Dataclass documentation](https://docs.python.org/3/library/dataclasses.html)
+
+BIP44 - Bitcoin improvement proposals - [BIP44 documentation](https://www.cs.utexas.edu/users/moore/acl2/manuals/current/manual/index-seo.php/BITCOIN____BIP44?path=3370/27092/5157/6093/9771)
+
+Web3 - an Ethereum Javascript API - [web3 documentation](https://web3js.readthedocs.io/en/v1.3.4/)
+
+---
 
 ### Developers
 * Callie Yu
